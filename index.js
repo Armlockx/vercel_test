@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('hello world.')
+    res.send('./routes/index.js')
 });
 //app.use("/home", home);
 
